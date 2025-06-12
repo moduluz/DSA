@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+void add(int n) {
+    int sum = (n * (n + 1)) / 2;
+    cout << "Sum of first " << n << " numbers is: " << sum << endl;
+}
+
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+    add(n);
+    return 0;
+}
