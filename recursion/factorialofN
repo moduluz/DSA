@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int func(int n) {
+    // Base condition
+    if (n == 0) {
+        return 1;
+    }
+
+    return n * func(n - 1);
+}
+
+int main() {
+    int n;
+    cout << "Enter a number: ";
+    cin >> n; 
+    cout << "Factorial of " << n << " is: " << func(n) << endl;
+    return 0;
+}
