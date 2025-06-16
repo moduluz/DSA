@@ -1,0 +1,5 @@
+| ✅ Concept                | 💡 What it Means                                                  | 🔧 Example                                          |
+|--------------------------|-------------------------------------------------------------------|----------------------------------------------------|
+| **Pass by Value**        | A copy of the variable is passed                                 | `void fun(int x)` — original `x` unchanged         |
+| **Pass by Reference**    | A reference (alias) is passed — changes affect the original       | `void fun(int& x)` — original `x` can be changed   |
+| **Range-Based For Loop** | Cleaner way to loop over a container (string, array, vector, etc.)| `for (char c : str)`                               |
